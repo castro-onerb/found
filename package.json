@@ -1,0 +1,36 @@
+{
+  "name": "@onerb/found",
+  "version": "1.0.0",
+  "description": "Package base utilities for start projects.",
+  "keywords": [
+    "found",
+    "foundation",
+    "utilities",
+    "project",
+    "base"
+  ],
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "homepage": "https://github.com/castro-onerb/found#readme",
+  "bugs": {
+    "url": "https://github.com/castro-onerb/found/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/castro-onerb/found.git"
+  },
+  "license": "MIT",
+  "author": "Breno Castro",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build -ws",
+    "test": "npm test -ws"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "tsup": "^8.2.0"
+  }
+}
