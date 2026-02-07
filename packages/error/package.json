@@ -1,7 +1,7 @@
 {
-  "name": "@onerb/core",
-  "version": "2.0.2",
-  "description": "Core utilities for Onerb projects.",
+  "name": "@onerb/error",
+  "version": "2.0.0",
+  "description": "Error utilities for Onerb projects.",
   "license": "MIT",
   "type": "module",
   "sideEffects": false,
@@ -14,9 +14,6 @@
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     }
-  },
-  "dependencies": {
-    "@onerb/error": "^2.0.0"
   },
   "files": ["dist"],
   "scripts": {
